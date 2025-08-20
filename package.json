@@ -1,0 +1,22 @@
+{
+  "name": "@jopi-loader/types",
+  "version": "1.0.0",
+  "private": false,
+  "license": "MIT",
+  "description": "Types for jopi-loader",
+
+  "types": "./extensions.d.js",
+
+  "scripts": {
+    "bun-publish": "bun publish"
+  },
+
+  "publishConfig": {
+    "access": "public"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johanpiquet/jopi-loader-types.git"
+  }
+}
