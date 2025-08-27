@@ -1,6 +1,6 @@
 {
   "name": "@jopi-loader/types",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "private": false,
   "license": "MIT",
   "description": "Types for jopi-loader",
