@@ -55,3 +55,11 @@ declare module "*.woff2?raw" {const asString: string; export default asString;}
 declare module "*.ttf" {const asString: string; export default asString;}
 declare module "*.ttf?inline" {const asString: string; export default asString;}
 declare module "*.ttf?raw" {const asString: string; export default asString;}
+
+declare module "*.txt" {const asString: string; export default asString;}
+declare module "*.txt?inline" {const asString: string; export default asString;}
+declare module "*.txt?raw" {const asString: string; export default asString;}
+
+declare module "*.json" {const asString: string; export default asString;}
+declare module "*.json?inline" {const asObject: any; export default asObject;}
+declare module "*.json?raw" {const asObject: any; export default asObject;}
