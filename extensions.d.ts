@@ -60,6 +60,6 @@ declare module "*.txt" {const asString: string; export default asString;}
 declare module "*.txt?inline" {const asString: string; export default asString;}
 declare module "*.txt?raw" {const asString: string; export default asString;}
 
-declare module "*.json" {const asString: string; export default asString;}
-declare module "*.json?inline" {const asObject: any; export default asObject;}
-declare module "*.json?raw" {const asObject: any; export default asObject;}
+declare module "*.json" {const asObject: any; export default asObject;}
+declare module "*.json?inline" {const asString: any; export default asString;}
+declare module "*.json?raw" {const asString: any; export default asString;}
